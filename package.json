@@ -1,0 +1,24 @@
+{
+  "name": "tulum-bible",
+  "version": "1.0.0",
+  "description": "This repository is dedicated to extending the functionality of the Tulum Bible website. It contains additional features, enhancements, and bug fixes that aim to improve the overall user experience of the website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve",
+    "build": "node builder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CerkaB/tulum-bible"
+  },
+  "author": "CerkaB",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.1",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "air-datepicker": "^3.5.0"
+  }
+}
