@@ -318,7 +318,8 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  -webkit-appearance: none;
+-webkit-appearance: none;
+appearance: none;
 }
 .air-datepicker-time--row input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
