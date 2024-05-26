@@ -12,6 +12,8 @@ const disabledDays = inputElement.getAttribute('data-disabled-day');
 
 new AirDatepicker('#date-picker', {
     locale: localeEn,
+    dateFormat: 'd/MMM/yy',
+    timeFormat: 'h:mm',
     timepicker: true,
     firstDay: 1,
     minHours: minHours ? parseInt(minHours, 10) : 9,

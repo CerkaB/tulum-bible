@@ -1,6 +1,6 @@
 require("esbuild")
     .build({
-     entryPoints: ["index.js", "date-picker.css"], 
+     entryPoints: ["date-picker-venues.js", "date-picker.css"], 
      bundle: true, 
      minify: true,
      sourcemap: false,  

@@ -90,16 +90,16 @@
   border-radius: var(--adp-cell-border-radius);
 }
 .air-datepicker-cell.-selected- {
-  color: #f5e7d1;
+  color: var(--adp-cell-background-color-selected);
   border: none;
-  background: var(--adp-cell-background-color-selected);
+  background: #f5e7d1;
 }
 .air-datepicker-cell.-selected-.-current- {
-  color: var(--adp-color-current-date);
-  background: var(--adp-cell-background-color-selected);
+  color: var(--adp-cell-background-color-selected);
+  background: #f5e7d1;
 }
 .air-datepicker-cell.-selected-.-focus- {
-  background: var(--adp-cell-background-color-selected-hover);
+  background: #f5e7d1;
 }
 .air-datepicker-body {
   transition: all var(--adp-transition-duration) var(--adp-transition-ease);
@@ -113,7 +113,7 @@
   margin: 8px 0 3px;
 }
 .air-datepicker-body--day-name {
-  color: var(--adp-color-disabled);
+  color: var(--adp-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,6 +157,8 @@
 .air-datepicker-nav--title,
 .air-datepicker-nav--action {
   display: flex;
+  font-family: Luxia;
+  font-size: 1.125rem;
   cursor: pointer;
   text-transform: uppercase;
   align-items: center;
@@ -266,7 +268,8 @@
 .air-datepicker-time--current-hours,
 .air-datepicker-time--current-minutes {
   line-height: 1;
-  font-size: 26px;
+  font-size: 28px;
+  font-weight: 500;
   font-family: inherit;
   position: relative;
   z-index: 1;
@@ -431,12 +434,12 @@ appearance: none;
   --adp-background-color-in-range: rgba(92, 196, 239, .1);
   --adp-background-color-in-range-focused: rgba(92, 196, 239, .2);
   --adp-background-color-selected-other-month-focused: #f5e7d1;
-  --adp-background-color-selected-other-month: #b51261;
+  --adp-background-color-selected-other-month: #6f6d54;
   --adp-color: #f5e7d1;
   --adp-color-secondary: #faf2e1;
   --adp-accent-color: #f5e7d1;
-  --adp-color-current-date: #cf0116;
-  --adp-color-other-month: #f5e7d170;
+  --adp-color-current-date: #cf5e01;
+  --adp-color-other-month: #f5e7d1a8;
   --adp-color-disabled: #f5e7d170;
   --adp-color-disabled-in-range: #939393;
   --adp-color-other-month-hover: #c5c5c5;
