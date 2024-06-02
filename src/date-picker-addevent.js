@@ -6,7 +6,7 @@ const inputElement = document.querySelector('#date-picker');
 
 new AirDatepicker('#date-picker', {
     locale: localeEn,
-    dateFormat: 'd/MMM/yy',
+    dateFormat: 'mm/dd/yy',
     firstDay: 1,
     minDate: new Date(),
 });
