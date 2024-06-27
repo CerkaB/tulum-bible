@@ -11,7 +11,7 @@ document.body.appendChild(hiddenInputForAirtable);
 
 new AirDatepicker(inputElement, {
     locale: localeEn,
-    dateFormat: 'd/mmmm/yy', // User-friendly format for display
+    dateFormat: 'd/mmm/yy', // User-friendly format for display
     firstDay: 1,
     minDate: new Date(),
     onSelect({date}) {
