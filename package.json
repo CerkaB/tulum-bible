@@ -19,6 +19,6 @@
     "serve": "^14.2.1"
   },
   "dependencies": {
-    "air-datepicker": "^3.5.0"
+    "air-datepicker": "^3.5.3"
   }
 }
