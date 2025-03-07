@@ -31,5 +31,12 @@ new AirDatepicker('#date-picker', {
                 }
             }
         }
+    },
+    onShow: function(inst) {
+        // Set the initial time to the minimum hours when the date picker is shown
+        const minHour = minHours ? parseInt(minHours, 10) : 9;
+        const currentDate = new Date();
+        currentDate.setHours(minHour, 0, 0, 0);
+        inst.selectDate(currentDate);
     }
 });
