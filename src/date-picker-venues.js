@@ -62,7 +62,7 @@ minuteSelect.value = '00';
 // Initialize datepicker
 const dp = new AirDatepicker('#date-picker', {
     locale: localeEn,
-    dateFormat: 'd/MMM', // Day and month only
+    dateFormat: 'd/MMMM', // Day and month only
     timepicker: false,
     firstDay: 1, // Week starts on Monday
     minDate: new Date(),
